@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'OSJ Template',
-  tagline: 'I 💛 Open Source',
-  favicon: 'img/favicon.svg',
+  title: 'Panda 🔥',
+  tagline: 'for saving money',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Jabolol', // Usually your GitHub org/user name.
+  projectName: 'panda', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -41,8 +41,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/opensourcejam/tree/main/documentation-template',
+          editUrl: 'hhttps://github.com/Prorr2/PandaDocumentation',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,10 +56,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'OSJ Template',
+        title: 'Panda Documentation',
         logo: {
-          alt: 'OSJ Logo',
-          src: 'img/logo.svg',
+          alt: 'Panda Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -70,7 +69,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/opensourcejam',
+            href: 'https://github.com/Jabolol/panda',
             label: 'GitHub',
             position: 'right',
           },
@@ -96,19 +95,6 @@ const config = {
             ],
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discord.com/invite/8pRRswC7qH',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/opensourcejam_',
-              },
-            ],
-          },
-          {
             title: 'More',
             items: [
               {
@@ -118,7 +104,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Open Source Jam`,
+        copyright: `Copyright © ${new Date().getFullYear()} Panda`,
       },
       prism: {
         theme: lightCodeTheme,

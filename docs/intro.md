@@ -2,46 +2,64 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Tutorial: Connecting Your Google or GitHub Account
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Overview
 
-## Getting Started
+This tutorial provides step-by-step instructions on how to connect your Google or GitHub account to our web-based application. By linking these accounts, you can simplify the login process and enhance your overall user experience.
 
-Get started by **creating a new site**.
+## Prerequisites
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- An active Google or GitHub account.
+- A web browser with internet access.
 
-### What you'll need
+## Steps to Connect Your Account
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### 1. **Access the Web Application:**
 
-## Generate a new site
+- Open your preferred web browser and navigate to [Panda](https://hola.com).
 
-Generate a new Docusaurus site using the **classic template**.
+### 2. **Log in**
 
-The classic template will automatically be added to your project after you run the command:
+- Once on the application's Login use your Google or Github profile to authenticate.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### 3. **Choose Connection Option:**
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- Within the account settings, locate and click on the option labeled "Connect with Google" or "Connect with GitHub."
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### 4. **Authorize Access:**
 
-## Start your site
+- Select the desired account type (Google or GitHub) and proceed to authorize the application to access basic account information.
+- Review and accept the permissions requested by the application to establish a secure connection.
 
-Run the development server:
+### 5. **Complete Verification (if necessary):**
 
-```bash
-cd my-website
-npm run start
-```
+- Depending on your security settings, you might need to verify your identity. Follow the on-screen instructions to complete this step.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+### 6. **Confirmation:**
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+- Once the authorization process is successful, you will receive a confirmation message. Your Google or GitHub account is now connected to the web application.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Benefits of Account Connection
+
+### 1. **Single Sign-On (SSO):**
+
+- Enjoy the convenience of logging in with a single click using your Google or GitHub credentials.
+
+### 2. **Enhanced Security:**
+
+- Strengthen the security of your account by leveraging the authentication protocols provided by Google or GitHub.
+
+### 3. **Profile Synchronization:**
+
+- Keep your profile information up-to-date by automatically synchronizing data from your Google or GitHub account.
+
+### 4. **Effortless Account Recovery:**
+
+- Simplify the account recovery process by utilizing the recovery options associated with your Google or GitHub account.
+
+## Conclusion
+
+Connecting your Google or GitHub account to our web-based application streamlines your user experience and adds an extra layer of security. Follow the steps outlined in this tutorial to seamlessly integrate your account and maximize the functionality of our web application.
+
+**Note:** We prioritize the security and privacy of your account information. The application only requests essential permissions to ensure a smooth and secure integration with your Google or GitHub account.

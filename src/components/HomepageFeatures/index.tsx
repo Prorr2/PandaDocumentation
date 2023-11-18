@@ -10,19 +10,34 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Feature 1',
-    Svg: require('@site/static/img/team_meeting_flash.svg').default,
-    description: <>Description</>,
+    title: 'Save electricity',
+    Svg: require('@site/static/img/feature_save.svg').default,
+    description: (
+      <>
+        Set customized energy-saving goals based on your lifestyle, preferences,
+        and historical consumption data.
+      </>
+    ),
   },
   {
-    title: 'Feature 2',
-    Svg: require('@site/static/img/programming_hold_code.svg').default,
-    description: <>Description </>,
+    title: 'Automated Bill Management',
+    Svg: require('@site/static/img/feature_bill.svg').default,
+    description: (
+      <>
+        Stay informed about your electricity usage in real-time through
+        intuitive graphs and charts.
+      </>
+    ),
   },
   {
-    title: 'Feature 3',
-    Svg: require('@site/static/img/business_deal_cash.svg').default,
-    description: <>Description </>,
+    title: 'Notification Feature',
+    Svg: require('@site/static/img/feature_notification.svg').default,
+    description: (
+      <>
+        Receive alerts when your usage approaches or exceeds the predefined
+        thresholds, empowering you to stay within your desired energy limits.
+      </>
+    ),
   },
 ]
 
